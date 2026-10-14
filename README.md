@@ -23,16 +23,10 @@ Graffiti is a Go tool for running more controlled SMB password attempts during *
 ## Installation
 
 ```bash
-git clone https://github.com/sorrence/graffiti.git
-cd graffiti
-go build -o graffiti .
+go install github.com/Sorrence/Graffiti@latest
 ```
 
 Optionally download dependencies in advance:
-
-```bash
-go mod download
-```
 
 ## Usage
 
@@ -93,6 +87,3 @@ go test ./...
 go vet ./...
 ```
 
-## License
-
-This repository does not currently include a license file. Confirm licensing terms with the project owner before distributing or reusing it.
